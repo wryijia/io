@@ -1,0 +1,458 @@
+div::-webkit-scrollbar,
+ul::-webkit-scrollbar,
+p::-webkit-scrollbar {
+  background-color: transparent !important;
+}
+#header {
+  max-width: 100% !important;
+  overflow-x: hidden;
+  overflow: hidden;
+}
+body #header {
+  width: 100%;
+  height: 616px;
+}
+body #header .header-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 100%;
+}
+body #header .header-title .title {
+  text-align: center;
+  font-size: 50px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #FFFFFF;
+  letter-spacing: 12px;
+}
+body #header .header-title .title .title-dian {
+  color: transparent;
+  position: relative;
+}
+body #header .header-title .title .title-dian::after {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  content: '.';
+  font-size: 0;
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+}
+body #header .header-title .sub-title {
+  margin: 59px 0;
+  text-align: center;
+  font-size: 20px;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #FFFFFF;
+  letter-spacing: 8px;
+}
+body #header .header-title .sub_btn {
+  width: 207px;
+  height: 47px;
+  background: #FFFFFF;
+  border-radius: 23px;
+  text-align: center;
+  font-size: 18px;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #FB5339;
+  line-height: 47px;
+}
+.about-layout .about-main > div {
+  padding: 80px 0;
+}
+.about-layout .about-main > div h4 {
+  width: 1277px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+  text-align: center;
+  font-size: 40px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #101428;
+  line-height: 40px;
+}
+.about-layout .about-main > div > div,
+.about-layout .about-main > div .honor-main {
+  width: 1300px;
+  margin: 0 auto;
+  padding-left: 13px;
+  padding-right: 13px;
+}
+.about-layout .about-main .about-yyy {
+  background: #F7F8FA;
+}
+.about-layout .about-main .about-yyy h4 {
+  padding-bottom: 60px;
+}
+.about-layout .about-main .about-yyy .about-section .section-title {
+  font-size: 18px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #FB5339;
+  line-height: 33px;
+  margin-bottom: 20px;
+}
+.about-layout .about-main .about-yyy .about-section .section-info p {
+  font-size: 16px;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #233A59;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+.about-layout .about-main .about-yyy .aim-list {
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.about-layout .about-main .about-yyy .aim-list .aim-item {
+  height: 240px;
+  width: 350px;
+  background-color: white;
+  border-radius: 20px;
+  padding-top: 66px;
+}
+.about-layout .about-main .about-yyy .aim-list .aim-item h3 {
+  text-align: center;
+  padding-bottom: 35px;
+  font-size: 24px;
+  line-height: 24px;
+  color: #FB5339;
+}
+.about-layout .about-main .about-yyy .aim-list .aim-item p {
+  text-align: center;
+  font-size: 20px;
+  line-height: 20px;
+  color: #233A59;
+}
+.about-layout .about-main .about-li-cheng {
+  padding-bottom: 78px;
+}
+.about-layout .about-main .about-li-cheng h4 {
+  padding-bottom: 80px;
+}
+.about-layout .about-main .about-activity {
+  background: #F7F8FA;
+  padding-top: 73px;
+}
+
+.about-layout .about-main .about-honor {
+  padding-top: 73px;
+  padding-bottom: 100px;
+}
+.about-layout .about-main .about-honor h4 {
+  padding-bottom: 80px;
+}
+.about-layout .about-main .about-honor .honor-main {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  border: 1px solid #DFDFDF;
+}
+.about-layout .about-main .about-honor .honor-main > li {
+  width: 25%;
+  padding: 40px 35px;
+  border-right: 1px solid #DFDFDF;
+  border-bottom: 1px solid #DFDFDF;
+  text-align: center;
+}
+.about-layout .about-main .about-honor .honor-main > li:nth-child(4n) {
+  border-right: none;
+}
+.about-layout .about-main .about-honor .honor-main > li:nth-last-child(-n+4) {
+  border-bottom: none;
+}
+.about-layout .about-main .about-honor .honor-main > li .honor-img.more-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  position: relative;
+  padding-top: 80px;
+}
+.about-layout .about-main .about-honor .honor-main > li .honor-img.more-img img {
+  display: block;
+  width: 66px;
+  height: 92px;
+}
+.about-layout .about-main .about-honor .honor-main > li .honor-img.more-img img:nth-of-type(1) {
+  margin-right: 60px;
+}
+.about-layout .about-main .about-honor .honor-main > li .honor-img.more-img img:nth-of-type(2) {
+  width: 94px;
+  height: 132px;
+  position: absolute;
+  top: 39px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.about-layout .about-main .about-honor .honor-main > li img {
+  height: 175px;
+  width: auto;
+}
+.about-layout .about-main .about-honor .honor-main > li h6 {
+  padding-top: 28px;
+  text-align: center;
+  font-size: 16px;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #233A59;
+}
+.about-layout .about-main .about-contact {
+  background: #F7F8FA;
+  background-image: url(../img/address-bg.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: auto 638px;
+}
+.about-layout .about-main .about-contact h4 {
+  padding-bottom: 80px;
+}
+.about-layout .about-main .about-contact .contact-main {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1470px;
+  max-width: 1470px;
+  margin: 0 auto;
+}
+.about-layout .about-main .about-contact .contact-main h6 {
+  font-size: 18px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #233A59;
+}
+.about-layout .about-main .about-contact .contact-main .contact-main-left {
+  background-color: #FFFFFF;
+  flex: 1;
+  max-width: 742px;
+  height: 330px;
+  padding: 59px 66px 56px 97px;
+}
+.about-layout .about-main .about-contact .contact-main .contact-main-left .user-type {
+  /* // padding: 15px 0; */
+  padding-top: 34px;
+  padding-bottom: 20px;
+  position: relative;
+}
+.about-layout .about-main .about-contact .contact-main .contact-main-left .user-type span {
+  cursor: pointer;
+  font-size: 16px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  padding-right: 28px;
+  color: #9EA2A8;
+  line-height: 33px;
+}
+.about-layout .about-main .about-contact .contact-main .contact-main-left .user-type span.active {
+  color: #233A59;
+}
+.about-layout .about-main .about-contact .contact-main .contact-main-left .user-type .we-code {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  top: 0;
+  right: 0;
+  -webkit-transform: translateX(-43%);
+  -ms-transform: translateX(-43%);
+  transform: translateX(-43%);
+}
+.about-layout .about-main .about-contact .contact-main .contact-main-left .user-type .we-code img {
+  width: 180px;
+  height: 180px;
+  border: 10px solid white;
+  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 28px;
+  display: none;
+}
+.about-layout .about-main .about-contact .contact-main .contact-main-left .contact-way {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 160px;
+  margin-left: -5px;
+  height: 44px;
+  background: rgba(199, 199, 199, 0.2);
+  border-radius: 19px 19px 19px 19px;
+  overflow: hidden;
+  cursor: pointer;
+
+}
+.about-layout .about-main .about-contact .contact-main .contact-main-left .contact-way .wechat-num {
+  line-height: 44px;
+  color: #333333;
+  padding: 0 20px;
+  letter-spacing: 2px;
+}
+.about-layout .about-main .about-contact .contact-main .contact-main-left .contact-way .wechat {
+  height: 100%;
+  width: 160px;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  top: 0;
+  left: -116px;
+  z-index: 3;
+  -webkit-transition: left 1S;
+  -o-transition: left 1S;
+  transition: left 1S;
+  border-radius: 19px 19px 19px 19px;
+}
+.about-layout .about-main .about-contact .contact-main .contact-main-left .contact-way .wechat span {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  opacity: 0.49;
+  border-radius: 50%;
+}
+.about-layout .about-main .about-contact .contact-main .contact-main-left .contact-way .wechat span.wechat-img {
+  border: 2px solid #B6B7B9;
+}
+.about-layout .about-main .about-contact .contact-main .contact-main-left .contact-way .wechat span.wechat-show-img {
+  display: none;
+}
+.about-layout .about-main .about-contact .contact-main .contact-main-left .contact-way .wechat.show-wechat {
+  left: 0px;
+}
+.about-layout .about-main .about-contact .contact-main .contact-main-left .contact-way .wechat.show-wechat .wechat-img {
+  display: none;
+}
+.about-layout .about-main .about-contact .contact-main .contact-main-left .contact-way .wechat.show-wechat .wechat-show-img {
+  display: inline-block;
+}
+.about-layout .about-main .about-contact .contact-main .contact-main-left .user-wechat h6 {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  font-size: 18px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #233A59;
+  line-height: 33px;
+}
+.about-layout .about-main .about-contact .contact-main .contact-main-left .user-wechat > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.about-layout .about-main .about-contact .contact-main .contact-main-left .user-wechat > div div {
+  text-align: center;
+}
+.about-layout .about-main .about-contact .contact-main .contact-main-left .user-wechat > div div img {
+  display: inline-block;
+  height: 100px;
+  border-radius: 10px;
+  margin-bottom: 21px;
+}
+.about-layout .about-main .about-contact .contact-main .contact-main-left .user-wechat > div div p {
+  text-align: center;
+  font-size: 14px;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #233A59;
+  line-height: 24px;
+}
+.about-layout .about-main .about-contact .contact-main .contact-main-right {
+  flex: 1;
+  max-width: 728px;
+  height: 330px;
+  background: #4c9bc0;
+  color: #FFFFFF;
+  padding-top: 59px;
+  padding-left: 59px;
+}
+.about-layout .about-main .about-contact .contact-main .contact-main-right h6 {
+  color: #FFFFFF !important;
+}
+.about-layout .about-main .about-contact .contact-main .contact-main-right .company-info {
+  padding-top: 0px;
+}
+.about-layout .about-main .about-contact .contact-main .contact-main-right .company-info p {
+  font-size: 16px;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #EBEBEB;
+  line-height: 33px;
+  margin-bottom: 28px;
+}
+.about-layout .about-main .about-contact .contact-main .contact-main-right .company-address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 48px;
+}
+.about-layout .about-main .about-contact .contact-main .contact-main-right .company-address > div {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: left;
+}
+.about-layout .about-main .about-contact .contact-main .contact-main-right .company-address > div .img {
+  width: 171px;
+  height: 115px;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-layout .about-main .about-contact .contact-main .contact-main-right .company-address > div h3 {
+  padding-top: 23px;
+  font-size: 14px;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #EBEBEB;
+  line-height: 33px;
+  text-align: left;
+  text-indent: 50px;
+}
