@@ -3,20 +3,16 @@ ul::-webkit-scrollbar,
 p::-webkit-scrollbar {
   background-color: transparent !important;
 }
-#header {
+#header-007 {
   max-width: 100% !important;
   overflow-x: hidden;
   overflow: hidden;
-}
-body #header {
-  width: 100%;
-  height: 616px;
 }
 body #header-007 {
   width: 100%;
   height: 120px;
 }
-body #header .header-title {
+body #header-007 .header-title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -32,7 +28,7 @@ body #header .header-title {
   justify-content: center;
   height: 100%;
 }
-body #header .header-title .title {
+body #header-007 .header-title .title {
   text-align: center;
   font-size: 50px;
   font-family: PingFang SC;
@@ -40,11 +36,11 @@ body #header .header-title .title {
   color: #FFFFFF;
   letter-spacing: 12px;
 }
-body #header .header-title .title .title-dian {
+body #header-007 .header-title .title .title-dian {
   color: transparent;
   position: relative;
 }
-body #header .header-title .title .title-dian::after {
+body #header-007 .header-title .title .title-dian::after {
   display: inline-block;
   position: absolute;
   top: 50%;
@@ -59,7 +55,7 @@ body #header .header-title .title .title-dian::after {
   border-radius: 50%;
   background-color: #FFFFFF;
 }
-body #header .header-title .sub-title {
+body #header-007 .header-title .sub-title {
   margin: 59px 0;
   text-align: center;
   font-size: 20px;
@@ -68,7 +64,7 @@ body #header .header-title .sub-title {
   color: #FFFFFF;
   letter-spacing: 8px;
 }
-body #header .header-title .sub_btn {
+body #header-007 .header-title .sub_btn {
   width: 207px;
   height: 47px;
   background: #FFFFFF;

@@ -1,79 +1,70 @@
-#header-nav {
-  position: fixed;
-  padding: 16px 0;
-  top: 0;
-  right: 0;
-  left: 0;
-  background: rgba(0, 0, 0, 0);
-  z-index: 11;
-}
 #header-nav-007 {
   position: fixed;
   padding: 16px 0;
   top: 0;
   right: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0);
-  z-index: 11;
+  background: white;
+  z-index: 100;
 }
-#header-nav.active {
+#header-nav-007.active {
   /* border-bottom: 2px solid rgba(0, 0, 0, 0.08); */
   color: #4E4E4E;
   background: rgba(244, 244, 244, 0.95);
 }
-#header-nav.active a,
-#header-nav.active span {
+#header-nav-007.active a,
+#header-nav-007.active span {
   color: #4E4E4E;
 }
-#header-nav a {
-  color: #FFFFFF;
+#header-nav-007 a {
+  /* color: #FFFFFF; */
   font-weight: 500;
   font-size: 16px;
 }
-#header-nav .header-main {
+#header-nav-007 .header-main {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
   max-width: 1200px;
 }
-#header-nav .header-main h1 {
+#header-nav-007 .header-main h1 {
   width: 50px;
   height: 50px;
   background: url(../img/logo.png) no-repeat;
   background-size: cover;
 }
-#header-nav .header-main h1 a {
+#header-nav-007 .header-main h1 a {
   display: inline-block;
   height: 100%;
   width: 100%;
   font-size: 0;
   opacity: 0;
 }
-#header-nav .header-main .nav {
+#header-nav-007 .header-main .nav {
   display: flex;
   align-items: center;
   justify-content: flex-end;
 }
-#header-nav .header-main .nav li {
+#header-nav-007 .header-main .nav li {
   margin-left: 2px;
   text-align: center;
   cursor: pointer;
-  color: #FFFFFF;
+  color: #000000;
 }
-#header-nav .header-main .nav li span,
-#header-nav .header-main .nav li a {
+#header-nav-007 .header-main .nav li span,
+#header-nav-007 .header-main .nav li a {
   font-size: 16px;
   padding: 14px;
   min-width: 136px;
   box-sizing: border-box;
   display: inline-block;
 }
-#header-nav .header-main .nav li.active {
+#header-nav-007 .header-main .nav li.active {
   background: #FB5339;
   border-radius: 4px;
 }
-#header-nav .header-main .nav li.active span,
-#header-nav .header-main .nav li.active a {
+#header-nav-007 .header-main .nav li.active span,
+#header-nav-007 .header-main .nav li.active a {
   color: #FFFFFF !important;
 }
