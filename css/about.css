@@ -267,7 +267,7 @@ body #header .header-title .sub_btn {
   background-color: #FFFFFF;
   flex: 1;
   max-width: 742px;
-  height: 330px;
+  height: 500px;
   padding: 59px 66px 56px 97px;
 }
 .about-layout .about-main .about-contact .contact-main .contact-main-left .user-type {
@@ -375,7 +375,6 @@ body #header .header-title .sub_btn {
   display: inline-block;
 }
 .about-layout .about-main .about-contact .contact-main .contact-main-left .user-wechat h6 {
-  padding-top: 70px;
   padding-bottom: 30px;
   font-size: 18px;
   font-family: PingFang SC;
@@ -411,7 +410,7 @@ body #header .header-title .sub_btn {
 .about-layout .about-main .about-contact .contact-main .contact-main-right {
   flex: 1;
   max-width: 728px;
-  height: 330px;
+  height: 500px;
   background: #4c9bc0;
   color: #FFFFFF;
   padding-top: 59px;

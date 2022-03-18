@@ -223,16 +223,16 @@
 .index-layout .index-main .global .global-lt .global-main ul li .type-name {
   padding-bottom: 8px;
   color: #182f43;
-  font-size: 22px;
-  line-height: 35px;
+  font-size: 32px;
+  line-height: 40px;
   font-weight: 600;
   font-family: 'Poppins-SemiBold', "Helvetica Neue", Helvetica, STHeiTi, Arial, sans-serif;
 }
 .index-layout .index-main .global .global-lt .global-main ul li .type-info,
 .index-layout .index-main .global .global-lt .global-main ul li .type-txt {
   width: 455.48px;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 20px;
+  line-height: 35px;
   letter-spacing: 0.5%;
   font-weight: 300;
   font-family: 'Poppins-Light', "Helvetica Neue", Helvetica, STHeiTi, Arial, sans-serif;
